@@ -1,0 +1,100 @@
+<!--
+Parker Dillon
+Section 002, Johnson
+6/12/2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parker Dillon - About Me</title>
+    <!--Link to my from-scratch css styles sheet and layout sheet-->
+    <link rel="stylesheet" href="css/parker.css">
+    <link rel="stylesheet" href="css/parkerlayout.css">
+</head>
+
+<body class="body"  id="top">
+    <!--Top of page image-->
+    <div class="common top centerit">
+        <img src="assets/img/taft_point_crop.JPEG" height="247" alt="Parker and his wife Sarah at Taft Point in Yosemite National Park">
+    </div>
+      
+    <div class="common aboutme centerit">
+        <!--Link back to the main professional sites-->
+        <a href="index.html" title="Return to Parker's Home Page">Return To Main Website</a> 
+
+        <!-- On-page anchor links to the different sections of the page -->
+        <h1 style="text-align: center;">About Me</h1>
+        <a href="#hob">Hobbies</a> | <a href="#gui">Guitar Video</a>  | <a href="#tab">Tableau Chart</a>
+    </div>
+
+    <!-- Code for the main chunk of my about me page -->
+    <!-- My hobbies list -->
+    <div class="common hobbies">
+        <h2 id="hob">Hobbies</h2>
+        <ol>
+            <li class="listheading">Visiting Naitional Parks
+                <ul>
+                    <li>Yosemite National Park</li>
+                    <li>Tetons National Park</li>
+                    <li>Zions National Park</li>
+                </ul>
+            </li>
+            <li class="listheading">Playing Guitar Songs of My Favorite Artists
+                <ul>
+                    <li>John Denver</li>
+                    <li>Jack Johnson</li>
+                    <li>James Taylor</li>
+                </ul>
+            </li>    
+            <li class="listheading">Playing Sports With My Wife
+                <ul>
+                    <li>Pickleball</li>
+                    <li>Trail running</li>
+                    <li>Skiing</li>
+                </ul>
+            </li>
+        </ol>
+    
+        <!--Code for my embedded Youtube Video-->
+        <h2 id="gui">Guitar Video</h2>
+        <p>As listed above, one of my hobbies is playing the guitar. In recent years I have been fascinated with the sound capabilities that one guitar contains. Below is one of my all-time favorite Youtube videos. In the video, Tommy Emmanuel shows off his one-man-guitar-band.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ENJuNCkPfx0?si=tJImo6fRHj2Z2Tdg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+
+        <!--Code for my embedded interactive Tableau chart-->
+        <h2 id="tab">Tableau Chart</h2>
+        <p>Here is a world map that shows each country's population in millions and each country's birth rate. It is an interactive list, so you can hover over any country to see its information.</p>
+        <div class='tableauPlaceholder' id='viz1718139094722' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Population and Birth Rate (2012)' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;po&#47;population_and_br_chart&#47;Population&#47;1_rss.png' style='border: none'>
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;' data="https://public.tableau.com/app/profile/parker.dillon7239/viz/population_and_br_chart/Population">
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+                <param name='embed_code_version' value='3'>
+                <param name='site_root' value=''>
+                <param name='name' value='population_and_br_chart&#47;Population'>
+                <param name='tabs' value='no'>
+                <param name='toolbar' value='yes'>
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;po&#47;population_and_br_chart&#47;Population&#47;1.png'>
+                <param name='animate_transition' value='yes' >
+                <param name='display_static_image' value='yes'>
+                <param name='display_spinner' value='yes'>
+                <param name='display_overlay' value='yes'>
+                <param name='display_count' value='yes'>
+                <param name='language' value='en-US'>
+                <param name='filter' value='publish=yes'>
+            </object>
+        </div>
+        <script>
+            var divElement = document.getElementById('viz1718139094722'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script><br>
+        <!-- Code for the on-page anchor link that takes the user back to the top of the page -->
+        <a href="#top">Back To Top</a>
+    </div>
+</body>
+</html>

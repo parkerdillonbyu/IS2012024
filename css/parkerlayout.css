@@ -1,0 +1,32 @@
+/* Code I made for my div tags, which put the different sections of my from-scratch page into boxes with borders */
+.common {
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.top {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 247px;
+}
+
+.aboutme {
+    top: 261px;
+    left: 5px;
+    right: 5px;
+    height: 152px;
+}
+
+.hobbies {
+    top: 422px;
+    left: 5px;
+    right: 5px;
+    height: 2095px;
+}
+
+/* Code I made to center the image at the top of the screen */
+.centerit {
+    text-align: center;
+}

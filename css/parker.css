@@ -1,0 +1,33 @@
+/* Text formatting code for the whole body of the page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(167, 214, 233);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Code for any in-text anchored links on the page */
+a {
+    color: rgb(0, 96, 213);
+    text-decoration: none;
+}
+
+/* Makes an underline appear on text-embedded links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code for the lists I created to show my hobbies */
+li {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Code to overwrite the previous code on the headers of my lists so they would be bigger and not italicized */
+.listheading {
+    font-style: normal;
+    font-size: 20px;
+}
